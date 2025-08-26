@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./sketch.js" type="module"></script>
+    <style>
+        body{
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 14px;
+        }
+
+        .bars rect{
+            fill: #f500e0;
+        }
+
+        .bars rect:hover{
+            fill: #a300e4;
+        }
+    </style>
+</head>
+<body>
+<svg width="200" height="600">
+<g transform="rotate(90, 100, 100)">
+<g class="bars" transform="translate(140, 0)">
+ <rect x="0" y="0" width="30" height="100"></rect>
+ <rect x="0" y="0" width="30" height="150"></rect>
+ <rect x="0" y="0" width="30" height="80"></rect>
+ </g>
+ <g class="labels"></g>
+ </g>
+ </svg>
+</body> 
+</html>
